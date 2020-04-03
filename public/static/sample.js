@@ -41,7 +41,7 @@ $(function() {
   function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable([
       ["Region", "Data"],
-      ["北海道", 54],
+      ["北海道", 55],
       ["青森", 32],
       ["岩手", 2],
       ["宮城", 5],
