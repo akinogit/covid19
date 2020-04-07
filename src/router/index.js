@@ -24,6 +24,29 @@ const routes = [
     path: '/map',
     name: 'Map',
     component: () => import('../views/Map.vue')
+  },
+  {
+    path: '/gender',
+    name: 'Gender',
+    component: () => import('../views/Gender.vue')
+  }
+  ,
+  {
+    path: '/people',
+    name: 'People',
+    component: () => import('../views/People.vue')
+  }
+  ,
+  {
+    path: '/discharge',
+    name: 'Discharge',
+    component: () => import('../views/Discharge.vue')
+  }
+  ,
+  {
+    path: '/dead',
+    name: 'Dead',
+    component: () => import('../views/Dead.vue')
   }
 ]
 
